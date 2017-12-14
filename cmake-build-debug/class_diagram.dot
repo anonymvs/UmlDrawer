@@ -1,0 +1,36 @@
+digraph G {
+	fontname = "Bitstream Vera Sans"
+	fontsize = 8
+
+
+ 	node [
+		fontname = "Bitstream Vera Sans"
+		fontsize = 8
+		shape = "record"
+	]
+
+	edge [
+		fontname = "Bitstream Vera Sans"
+		fontsize = 8
+	]
+
+	Civilian [
+		label = <{Civilian||}>
+	]
+
+	Person [
+		label = <{Person|- id : int<BR ALIGN="LEFT"/>+ name : string<BR ALIGN="LEFT"/><U>+ population : long</U><BR ALIGN="LEFT"/>|- Person() : <BR ALIGN="LEFT"/>- work() : void<BR ALIGN="LEFT"/><U>- numbers() : int</U><BR ALIGN="LEFT"/><I><U>- random() : string</U></I><BR ALIGN="LEFT"/>}>
+	]
+
+	Worker [
+		label = <{Worker|- workplace : string<BR ALIGN="LEFT"/>|}>
+	]
+
+	edge [
+		 arrowhead = "empty"
+	]
+
+	Worker -> Person
+	Civilian -> Person
+
+}
