@@ -7,16 +7,36 @@
 #include "Class.h"
 #include "Field.h"
 #include "Function.h"
-#include "DotWriter.h"
+#include "ClassDiagram.h"
 #include "Visibility.h"
+#include "Generalization.h"
+#include "DiagramReader.h"
 
+void test();
 
 int main(int argc, char **argv) {
 
+    if(argc != 2) {
+        std::cerr << "Not enough arguments";
+    }
+
+    //test();
+    DiagramReader dr;
+    dr.readFromPath(argv[1]);
+
+    std::ofstream file;
+    file.open("class_diagram_from_file.dot");
+    file << dr.getContent();
+    file.close();
+
+    return 0;
+}
+
+void test() {
     std::ofstream file;
     file.open("class_diagram.dot");
 
-    DotWriter dw{};
+    ClassDiagram dw{};
 
     std::list<Field> fields;
     std::list<Function> methods;
@@ -45,11 +65,15 @@ int main(int argc, char **argv) {
     dw.addClass(person);
     dw.addClass(worker);
     dw.addClass(civilian);
-    dw.addGeneralization(worker.getName(), person.getName());
-    dw.addGeneralization(civilian.getName(), person.getName());
+    Generalization *wp = new Generalization{worker, person};
+    dw.addRelation( wp );
+    Generalization *cp = new Generalization{civilian, worker};
+    dw.addRelation( cp);
 
     file << dw.getContent();
     file.close();
-    return 0;
+    delete wp;
+    delete cp;
+
 }
 

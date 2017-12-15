@@ -81,28 +81,28 @@ CMakeFiles/umldrawer.dir/main.cpp.o.provides: CMakeFiles/umldrawer.dir/main.cpp.
 CMakeFiles/umldrawer.dir/main.cpp.o.provides.build: CMakeFiles/umldrawer.dir/main.cpp.o
 
 
-CMakeFiles/umldrawer.dir/DotWriter.cpp.o: CMakeFiles/umldrawer.dir/flags.make
-CMakeFiles/umldrawer.dir/DotWriter.cpp.o: ../DotWriter.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hegedus/active_workspace/cpp11/nhf2/umldrawer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/umldrawer.dir/DotWriter.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/umldrawer.dir/DotWriter.cpp.o -c /home/hegedus/active_workspace/cpp11/nhf2/umldrawer/DotWriter.cpp
+CMakeFiles/umldrawer.dir/ClassDiagram.cpp.o: CMakeFiles/umldrawer.dir/flags.make
+CMakeFiles/umldrawer.dir/ClassDiagram.cpp.o: ../ClassDiagram.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hegedus/active_workspace/cpp11/nhf2/umldrawer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/umldrawer.dir/ClassDiagram.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/umldrawer.dir/ClassDiagram.cpp.o -c /home/hegedus/active_workspace/cpp11/nhf2/umldrawer/ClassDiagram.cpp
 
-CMakeFiles/umldrawer.dir/DotWriter.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/umldrawer.dir/DotWriter.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hegedus/active_workspace/cpp11/nhf2/umldrawer/DotWriter.cpp > CMakeFiles/umldrawer.dir/DotWriter.cpp.i
+CMakeFiles/umldrawer.dir/ClassDiagram.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/umldrawer.dir/ClassDiagram.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hegedus/active_workspace/cpp11/nhf2/umldrawer/ClassDiagram.cpp > CMakeFiles/umldrawer.dir/ClassDiagram.cpp.i
 
-CMakeFiles/umldrawer.dir/DotWriter.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/umldrawer.dir/DotWriter.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hegedus/active_workspace/cpp11/nhf2/umldrawer/DotWriter.cpp -o CMakeFiles/umldrawer.dir/DotWriter.cpp.s
+CMakeFiles/umldrawer.dir/ClassDiagram.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/umldrawer.dir/ClassDiagram.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hegedus/active_workspace/cpp11/nhf2/umldrawer/ClassDiagram.cpp -o CMakeFiles/umldrawer.dir/ClassDiagram.cpp.s
 
-CMakeFiles/umldrawer.dir/DotWriter.cpp.o.requires:
+CMakeFiles/umldrawer.dir/ClassDiagram.cpp.o.requires:
 
-.PHONY : CMakeFiles/umldrawer.dir/DotWriter.cpp.o.requires
+.PHONY : CMakeFiles/umldrawer.dir/ClassDiagram.cpp.o.requires
 
-CMakeFiles/umldrawer.dir/DotWriter.cpp.o.provides: CMakeFiles/umldrawer.dir/DotWriter.cpp.o.requires
-	$(MAKE) -f CMakeFiles/umldrawer.dir/build.make CMakeFiles/umldrawer.dir/DotWriter.cpp.o.provides.build
-.PHONY : CMakeFiles/umldrawer.dir/DotWriter.cpp.o.provides
+CMakeFiles/umldrawer.dir/ClassDiagram.cpp.o.provides: CMakeFiles/umldrawer.dir/ClassDiagram.cpp.o.requires
+	$(MAKE) -f CMakeFiles/umldrawer.dir/build.make CMakeFiles/umldrawer.dir/ClassDiagram.cpp.o.provides.build
+.PHONY : CMakeFiles/umldrawer.dir/ClassDiagram.cpp.o.provides
 
-CMakeFiles/umldrawer.dir/DotWriter.cpp.o.provides.build: CMakeFiles/umldrawer.dir/DotWriter.cpp.o
+CMakeFiles/umldrawer.dir/ClassDiagram.cpp.o.provides.build: CMakeFiles/umldrawer.dir/ClassDiagram.cpp.o
 
 
 CMakeFiles/umldrawer.dir/Class.cpp.o: CMakeFiles/umldrawer.dir/flags.make
@@ -177,25 +177,181 @@ CMakeFiles/umldrawer.dir/Field.cpp.o.provides: CMakeFiles/umldrawer.dir/Field.cp
 CMakeFiles/umldrawer.dir/Field.cpp.o.provides.build: CMakeFiles/umldrawer.dir/Field.cpp.o
 
 
+CMakeFiles/umldrawer.dir/DiagramReader.cpp.o: CMakeFiles/umldrawer.dir/flags.make
+CMakeFiles/umldrawer.dir/DiagramReader.cpp.o: ../DiagramReader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hegedus/active_workspace/cpp11/nhf2/umldrawer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/umldrawer.dir/DiagramReader.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/umldrawer.dir/DiagramReader.cpp.o -c /home/hegedus/active_workspace/cpp11/nhf2/umldrawer/DiagramReader.cpp
+
+CMakeFiles/umldrawer.dir/DiagramReader.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/umldrawer.dir/DiagramReader.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hegedus/active_workspace/cpp11/nhf2/umldrawer/DiagramReader.cpp > CMakeFiles/umldrawer.dir/DiagramReader.cpp.i
+
+CMakeFiles/umldrawer.dir/DiagramReader.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/umldrawer.dir/DiagramReader.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hegedus/active_workspace/cpp11/nhf2/umldrawer/DiagramReader.cpp -o CMakeFiles/umldrawer.dir/DiagramReader.cpp.s
+
+CMakeFiles/umldrawer.dir/DiagramReader.cpp.o.requires:
+
+.PHONY : CMakeFiles/umldrawer.dir/DiagramReader.cpp.o.requires
+
+CMakeFiles/umldrawer.dir/DiagramReader.cpp.o.provides: CMakeFiles/umldrawer.dir/DiagramReader.cpp.o.requires
+	$(MAKE) -f CMakeFiles/umldrawer.dir/build.make CMakeFiles/umldrawer.dir/DiagramReader.cpp.o.provides.build
+.PHONY : CMakeFiles/umldrawer.dir/DiagramReader.cpp.o.provides
+
+CMakeFiles/umldrawer.dir/DiagramReader.cpp.o.provides.build: CMakeFiles/umldrawer.dir/DiagramReader.cpp.o
+
+
+CMakeFiles/umldrawer.dir/Generalization.cpp.o: CMakeFiles/umldrawer.dir/flags.make
+CMakeFiles/umldrawer.dir/Generalization.cpp.o: ../Generalization.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hegedus/active_workspace/cpp11/nhf2/umldrawer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/umldrawer.dir/Generalization.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/umldrawer.dir/Generalization.cpp.o -c /home/hegedus/active_workspace/cpp11/nhf2/umldrawer/Generalization.cpp
+
+CMakeFiles/umldrawer.dir/Generalization.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/umldrawer.dir/Generalization.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hegedus/active_workspace/cpp11/nhf2/umldrawer/Generalization.cpp > CMakeFiles/umldrawer.dir/Generalization.cpp.i
+
+CMakeFiles/umldrawer.dir/Generalization.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/umldrawer.dir/Generalization.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hegedus/active_workspace/cpp11/nhf2/umldrawer/Generalization.cpp -o CMakeFiles/umldrawer.dir/Generalization.cpp.s
+
+CMakeFiles/umldrawer.dir/Generalization.cpp.o.requires:
+
+.PHONY : CMakeFiles/umldrawer.dir/Generalization.cpp.o.requires
+
+CMakeFiles/umldrawer.dir/Generalization.cpp.o.provides: CMakeFiles/umldrawer.dir/Generalization.cpp.o.requires
+	$(MAKE) -f CMakeFiles/umldrawer.dir/build.make CMakeFiles/umldrawer.dir/Generalization.cpp.o.provides.build
+.PHONY : CMakeFiles/umldrawer.dir/Generalization.cpp.o.provides
+
+CMakeFiles/umldrawer.dir/Generalization.cpp.o.provides.build: CMakeFiles/umldrawer.dir/Generalization.cpp.o
+
+
+CMakeFiles/umldrawer.dir/Dependency.cpp.o: CMakeFiles/umldrawer.dir/flags.make
+CMakeFiles/umldrawer.dir/Dependency.cpp.o: ../Dependency.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hegedus/active_workspace/cpp11/nhf2/umldrawer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/umldrawer.dir/Dependency.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/umldrawer.dir/Dependency.cpp.o -c /home/hegedus/active_workspace/cpp11/nhf2/umldrawer/Dependency.cpp
+
+CMakeFiles/umldrawer.dir/Dependency.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/umldrawer.dir/Dependency.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hegedus/active_workspace/cpp11/nhf2/umldrawer/Dependency.cpp > CMakeFiles/umldrawer.dir/Dependency.cpp.i
+
+CMakeFiles/umldrawer.dir/Dependency.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/umldrawer.dir/Dependency.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hegedus/active_workspace/cpp11/nhf2/umldrawer/Dependency.cpp -o CMakeFiles/umldrawer.dir/Dependency.cpp.s
+
+CMakeFiles/umldrawer.dir/Dependency.cpp.o.requires:
+
+.PHONY : CMakeFiles/umldrawer.dir/Dependency.cpp.o.requires
+
+CMakeFiles/umldrawer.dir/Dependency.cpp.o.provides: CMakeFiles/umldrawer.dir/Dependency.cpp.o.requires
+	$(MAKE) -f CMakeFiles/umldrawer.dir/build.make CMakeFiles/umldrawer.dir/Dependency.cpp.o.provides.build
+.PHONY : CMakeFiles/umldrawer.dir/Dependency.cpp.o.provides
+
+CMakeFiles/umldrawer.dir/Dependency.cpp.o.provides.build: CMakeFiles/umldrawer.dir/Dependency.cpp.o
+
+
+CMakeFiles/umldrawer.dir/Aggregation.cpp.o: CMakeFiles/umldrawer.dir/flags.make
+CMakeFiles/umldrawer.dir/Aggregation.cpp.o: ../Aggregation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hegedus/active_workspace/cpp11/nhf2/umldrawer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/umldrawer.dir/Aggregation.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/umldrawer.dir/Aggregation.cpp.o -c /home/hegedus/active_workspace/cpp11/nhf2/umldrawer/Aggregation.cpp
+
+CMakeFiles/umldrawer.dir/Aggregation.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/umldrawer.dir/Aggregation.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hegedus/active_workspace/cpp11/nhf2/umldrawer/Aggregation.cpp > CMakeFiles/umldrawer.dir/Aggregation.cpp.i
+
+CMakeFiles/umldrawer.dir/Aggregation.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/umldrawer.dir/Aggregation.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hegedus/active_workspace/cpp11/nhf2/umldrawer/Aggregation.cpp -o CMakeFiles/umldrawer.dir/Aggregation.cpp.s
+
+CMakeFiles/umldrawer.dir/Aggregation.cpp.o.requires:
+
+.PHONY : CMakeFiles/umldrawer.dir/Aggregation.cpp.o.requires
+
+CMakeFiles/umldrawer.dir/Aggregation.cpp.o.provides: CMakeFiles/umldrawer.dir/Aggregation.cpp.o.requires
+	$(MAKE) -f CMakeFiles/umldrawer.dir/build.make CMakeFiles/umldrawer.dir/Aggregation.cpp.o.provides.build
+.PHONY : CMakeFiles/umldrawer.dir/Aggregation.cpp.o.provides
+
+CMakeFiles/umldrawer.dir/Aggregation.cpp.o.provides.build: CMakeFiles/umldrawer.dir/Aggregation.cpp.o
+
+
+CMakeFiles/umldrawer.dir/Composition.cpp.o: CMakeFiles/umldrawer.dir/flags.make
+CMakeFiles/umldrawer.dir/Composition.cpp.o: ../Composition.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hegedus/active_workspace/cpp11/nhf2/umldrawer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/umldrawer.dir/Composition.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/umldrawer.dir/Composition.cpp.o -c /home/hegedus/active_workspace/cpp11/nhf2/umldrawer/Composition.cpp
+
+CMakeFiles/umldrawer.dir/Composition.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/umldrawer.dir/Composition.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hegedus/active_workspace/cpp11/nhf2/umldrawer/Composition.cpp > CMakeFiles/umldrawer.dir/Composition.cpp.i
+
+CMakeFiles/umldrawer.dir/Composition.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/umldrawer.dir/Composition.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hegedus/active_workspace/cpp11/nhf2/umldrawer/Composition.cpp -o CMakeFiles/umldrawer.dir/Composition.cpp.s
+
+CMakeFiles/umldrawer.dir/Composition.cpp.o.requires:
+
+.PHONY : CMakeFiles/umldrawer.dir/Composition.cpp.o.requires
+
+CMakeFiles/umldrawer.dir/Composition.cpp.o.provides: CMakeFiles/umldrawer.dir/Composition.cpp.o.requires
+	$(MAKE) -f CMakeFiles/umldrawer.dir/build.make CMakeFiles/umldrawer.dir/Composition.cpp.o.provides.build
+.PHONY : CMakeFiles/umldrawer.dir/Composition.cpp.o.provides
+
+CMakeFiles/umldrawer.dir/Composition.cpp.o.provides.build: CMakeFiles/umldrawer.dir/Composition.cpp.o
+
+
+CMakeFiles/umldrawer.dir/Association.cpp.o: CMakeFiles/umldrawer.dir/flags.make
+CMakeFiles/umldrawer.dir/Association.cpp.o: ../Association.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hegedus/active_workspace/cpp11/nhf2/umldrawer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/umldrawer.dir/Association.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/umldrawer.dir/Association.cpp.o -c /home/hegedus/active_workspace/cpp11/nhf2/umldrawer/Association.cpp
+
+CMakeFiles/umldrawer.dir/Association.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/umldrawer.dir/Association.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hegedus/active_workspace/cpp11/nhf2/umldrawer/Association.cpp > CMakeFiles/umldrawer.dir/Association.cpp.i
+
+CMakeFiles/umldrawer.dir/Association.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/umldrawer.dir/Association.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hegedus/active_workspace/cpp11/nhf2/umldrawer/Association.cpp -o CMakeFiles/umldrawer.dir/Association.cpp.s
+
+CMakeFiles/umldrawer.dir/Association.cpp.o.requires:
+
+.PHONY : CMakeFiles/umldrawer.dir/Association.cpp.o.requires
+
+CMakeFiles/umldrawer.dir/Association.cpp.o.provides: CMakeFiles/umldrawer.dir/Association.cpp.o.requires
+	$(MAKE) -f CMakeFiles/umldrawer.dir/build.make CMakeFiles/umldrawer.dir/Association.cpp.o.provides.build
+.PHONY : CMakeFiles/umldrawer.dir/Association.cpp.o.provides
+
+CMakeFiles/umldrawer.dir/Association.cpp.o.provides.build: CMakeFiles/umldrawer.dir/Association.cpp.o
+
+
 # Object files for target umldrawer
 umldrawer_OBJECTS = \
 "CMakeFiles/umldrawer.dir/main.cpp.o" \
-"CMakeFiles/umldrawer.dir/DotWriter.cpp.o" \
+"CMakeFiles/umldrawer.dir/ClassDiagram.cpp.o" \
 "CMakeFiles/umldrawer.dir/Class.cpp.o" \
 "CMakeFiles/umldrawer.dir/Function.cpp.o" \
-"CMakeFiles/umldrawer.dir/Field.cpp.o"
+"CMakeFiles/umldrawer.dir/Field.cpp.o" \
+"CMakeFiles/umldrawer.dir/DiagramReader.cpp.o" \
+"CMakeFiles/umldrawer.dir/Generalization.cpp.o" \
+"CMakeFiles/umldrawer.dir/Dependency.cpp.o" \
+"CMakeFiles/umldrawer.dir/Aggregation.cpp.o" \
+"CMakeFiles/umldrawer.dir/Composition.cpp.o" \
+"CMakeFiles/umldrawer.dir/Association.cpp.o"
 
 # External object files for target umldrawer
 umldrawer_EXTERNAL_OBJECTS =
 
 umldrawer: CMakeFiles/umldrawer.dir/main.cpp.o
-umldrawer: CMakeFiles/umldrawer.dir/DotWriter.cpp.o
+umldrawer: CMakeFiles/umldrawer.dir/ClassDiagram.cpp.o
 umldrawer: CMakeFiles/umldrawer.dir/Class.cpp.o
 umldrawer: CMakeFiles/umldrawer.dir/Function.cpp.o
 umldrawer: CMakeFiles/umldrawer.dir/Field.cpp.o
+umldrawer: CMakeFiles/umldrawer.dir/DiagramReader.cpp.o
+umldrawer: CMakeFiles/umldrawer.dir/Generalization.cpp.o
+umldrawer: CMakeFiles/umldrawer.dir/Dependency.cpp.o
+umldrawer: CMakeFiles/umldrawer.dir/Aggregation.cpp.o
+umldrawer: CMakeFiles/umldrawer.dir/Composition.cpp.o
+umldrawer: CMakeFiles/umldrawer.dir/Association.cpp.o
 umldrawer: CMakeFiles/umldrawer.dir/build.make
 umldrawer: CMakeFiles/umldrawer.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/hegedus/active_workspace/cpp11/nhf2/umldrawer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable umldrawer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/hegedus/active_workspace/cpp11/nhf2/umldrawer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable umldrawer"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/umldrawer.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -204,10 +360,16 @@ CMakeFiles/umldrawer.dir/build: umldrawer
 .PHONY : CMakeFiles/umldrawer.dir/build
 
 CMakeFiles/umldrawer.dir/requires: CMakeFiles/umldrawer.dir/main.cpp.o.requires
-CMakeFiles/umldrawer.dir/requires: CMakeFiles/umldrawer.dir/DotWriter.cpp.o.requires
+CMakeFiles/umldrawer.dir/requires: CMakeFiles/umldrawer.dir/ClassDiagram.cpp.o.requires
 CMakeFiles/umldrawer.dir/requires: CMakeFiles/umldrawer.dir/Class.cpp.o.requires
 CMakeFiles/umldrawer.dir/requires: CMakeFiles/umldrawer.dir/Function.cpp.o.requires
 CMakeFiles/umldrawer.dir/requires: CMakeFiles/umldrawer.dir/Field.cpp.o.requires
+CMakeFiles/umldrawer.dir/requires: CMakeFiles/umldrawer.dir/DiagramReader.cpp.o.requires
+CMakeFiles/umldrawer.dir/requires: CMakeFiles/umldrawer.dir/Generalization.cpp.o.requires
+CMakeFiles/umldrawer.dir/requires: CMakeFiles/umldrawer.dir/Dependency.cpp.o.requires
+CMakeFiles/umldrawer.dir/requires: CMakeFiles/umldrawer.dir/Aggregation.cpp.o.requires
+CMakeFiles/umldrawer.dir/requires: CMakeFiles/umldrawer.dir/Composition.cpp.o.requires
+CMakeFiles/umldrawer.dir/requires: CMakeFiles/umldrawer.dir/Association.cpp.o.requires
 
 .PHONY : CMakeFiles/umldrawer.dir/requires
 

@@ -6,26 +6,31 @@
 #define UMLDRAWER_DOTWRITER_H
 
 #include <string>
+#include <vector>
+#include <memory>
 
 #include "Class.h"
+#include "IRelation.h"
 
-class DotWriter {
+class ClassDiagram {
 private:
     std::string content;
     std::string classes_content;
-    std::string generalizations_content;
+    std::string relations_content;
+
     std::map<std::string, Class> diagram;
-    std::list<std::pair<Class, Class>> generalizations;
+    std::vector<IRelation*> relations;
 
     void initDotFile();
-    void initGeneralizations();
 public:
-    DotWriter();
+    ClassDiagram();
 
     std::string getContent();
 
     void addClass(Class);
-    void addGeneralization(std::string, std::string);
+    void addRelation(IRelation *);
+    const Class& getClass(std::string const &);
+
 };
 
 

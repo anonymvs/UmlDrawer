@@ -22,6 +22,9 @@ public:
     Class(std::string, std::list<Field>, std::list<Function>);
     void write(std::string &);
 
+    void addField(Field);
+    void addFunction(Function);
+
     std::string getName();
 };
 

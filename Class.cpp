@@ -6,6 +6,8 @@
 
 Class::Class() {
     name = "";
+    fields = std::list<Field>{};
+    methods = std::list<Function>{};
 }
 
 Class::Class(std::string name, std::list<Field> attribs, std::list<Function> methods, std::string type) :
@@ -41,9 +43,9 @@ Class::Class(std::string name, std::list<Field> attribs, std::list<Function> met
 void Class::write(std::string &str) {
     std::string opener = "\t" + name + " [\n";
     std::string label_open = "\t\tlabel = <{";
-    std::string type_final = "";
+    std::string type_final;
     if(!type.empty()) {
-        type_final = "\\<\\<" + type + "\\>\\>\n";
+        type_final = "&lt;&lt;" + type + "&gt;&gt;<BR ALIGN=\"LEFT\"/>";
     }
     std::string label;
     if(isAbstrack) {
@@ -66,4 +68,12 @@ void Class::write(std::string &str) {
 
 std::string Class::getName() {
     return name;
+}
+
+void Class::addField(Field field) {
+    fields.push_back(field);
+}
+
+void Class::addFunction(Function function) {
+    methods.push_back(function);
 }

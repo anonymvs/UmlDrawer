@@ -84,16 +84,46 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/hegedus/active_workspace/cpp11/nhf2/umldrawer/Aggregation.cpp">
+			<Option target="umldrawer"/>
+		</Unit>
+		<Unit filename="/home/hegedus/active_workspace/cpp11/nhf2/umldrawer/Aggregation.h">
+			<Option target="umldrawer"/>
+		</Unit>
+		<Unit filename="/home/hegedus/active_workspace/cpp11/nhf2/umldrawer/Association.cpp">
+			<Option target="umldrawer"/>
+		</Unit>
+		<Unit filename="/home/hegedus/active_workspace/cpp11/nhf2/umldrawer/Association.h">
+			<Option target="umldrawer"/>
+		</Unit>
 		<Unit filename="/home/hegedus/active_workspace/cpp11/nhf2/umldrawer/Class.cpp">
 			<Option target="umldrawer"/>
 		</Unit>
 		<Unit filename="/home/hegedus/active_workspace/cpp11/nhf2/umldrawer/Class.h">
 			<Option target="umldrawer"/>
 		</Unit>
-		<Unit filename="/home/hegedus/active_workspace/cpp11/nhf2/umldrawer/DotWriter.cpp">
+		<Unit filename="/home/hegedus/active_workspace/cpp11/nhf2/umldrawer/ClassDiagram.cpp">
 			<Option target="umldrawer"/>
 		</Unit>
-		<Unit filename="/home/hegedus/active_workspace/cpp11/nhf2/umldrawer/DotWriter.h">
+		<Unit filename="/home/hegedus/active_workspace/cpp11/nhf2/umldrawer/ClassDiagram.h">
+			<Option target="umldrawer"/>
+		</Unit>
+		<Unit filename="/home/hegedus/active_workspace/cpp11/nhf2/umldrawer/Composition.cpp">
+			<Option target="umldrawer"/>
+		</Unit>
+		<Unit filename="/home/hegedus/active_workspace/cpp11/nhf2/umldrawer/Composition.h">
+			<Option target="umldrawer"/>
+		</Unit>
+		<Unit filename="/home/hegedus/active_workspace/cpp11/nhf2/umldrawer/Dependency.cpp">
+			<Option target="umldrawer"/>
+		</Unit>
+		<Unit filename="/home/hegedus/active_workspace/cpp11/nhf2/umldrawer/Dependency.h">
+			<Option target="umldrawer"/>
+		</Unit>
+		<Unit filename="/home/hegedus/active_workspace/cpp11/nhf2/umldrawer/DiagramReader.cpp">
+			<Option target="umldrawer"/>
+		</Unit>
+		<Unit filename="/home/hegedus/active_workspace/cpp11/nhf2/umldrawer/DiagramReader.h">
 			<Option target="umldrawer"/>
 		</Unit>
 		<Unit filename="/home/hegedus/active_workspace/cpp11/nhf2/umldrawer/Field.cpp">
@@ -106,6 +136,15 @@
 			<Option target="umldrawer"/>
 		</Unit>
 		<Unit filename="/home/hegedus/active_workspace/cpp11/nhf2/umldrawer/Function.h">
+			<Option target="umldrawer"/>
+		</Unit>
+		<Unit filename="/home/hegedus/active_workspace/cpp11/nhf2/umldrawer/Generalization.cpp">
+			<Option target="umldrawer"/>
+		</Unit>
+		<Unit filename="/home/hegedus/active_workspace/cpp11/nhf2/umldrawer/Generalization.h">
+			<Option target="umldrawer"/>
+		</Unit>
+		<Unit filename="/home/hegedus/active_workspace/cpp11/nhf2/umldrawer/IRelation.h">
 			<Option target="umldrawer"/>
 		</Unit>
 		<Unit filename="/home/hegedus/active_workspace/cpp11/nhf2/umldrawer/Visibility.h">

@@ -123,6 +123,60 @@ umldrawer/fast:
 	$(MAKE) -f CMakeFiles/umldrawer.dir/build.make CMakeFiles/umldrawer.dir/build
 .PHONY : umldrawer/fast
 
+Aggregation.o: Aggregation.cpp.o
+
+.PHONY : Aggregation.o
+
+# target to build an object file
+Aggregation.cpp.o:
+	$(MAKE) -f CMakeFiles/umldrawer.dir/build.make CMakeFiles/umldrawer.dir/Aggregation.cpp.o
+.PHONY : Aggregation.cpp.o
+
+Aggregation.i: Aggregation.cpp.i
+
+.PHONY : Aggregation.i
+
+# target to preprocess a source file
+Aggregation.cpp.i:
+	$(MAKE) -f CMakeFiles/umldrawer.dir/build.make CMakeFiles/umldrawer.dir/Aggregation.cpp.i
+.PHONY : Aggregation.cpp.i
+
+Aggregation.s: Aggregation.cpp.s
+
+.PHONY : Aggregation.s
+
+# target to generate assembly for a file
+Aggregation.cpp.s:
+	$(MAKE) -f CMakeFiles/umldrawer.dir/build.make CMakeFiles/umldrawer.dir/Aggregation.cpp.s
+.PHONY : Aggregation.cpp.s
+
+Association.o: Association.cpp.o
+
+.PHONY : Association.o
+
+# target to build an object file
+Association.cpp.o:
+	$(MAKE) -f CMakeFiles/umldrawer.dir/build.make CMakeFiles/umldrawer.dir/Association.cpp.o
+.PHONY : Association.cpp.o
+
+Association.i: Association.cpp.i
+
+.PHONY : Association.i
+
+# target to preprocess a source file
+Association.cpp.i:
+	$(MAKE) -f CMakeFiles/umldrawer.dir/build.make CMakeFiles/umldrawer.dir/Association.cpp.i
+.PHONY : Association.cpp.i
+
+Association.s: Association.cpp.s
+
+.PHONY : Association.s
+
+# target to generate assembly for a file
+Association.cpp.s:
+	$(MAKE) -f CMakeFiles/umldrawer.dir/build.make CMakeFiles/umldrawer.dir/Association.cpp.s
+.PHONY : Association.cpp.s
+
 Class.o: Class.cpp.o
 
 .PHONY : Class.o
@@ -150,32 +204,113 @@ Class.cpp.s:
 	$(MAKE) -f CMakeFiles/umldrawer.dir/build.make CMakeFiles/umldrawer.dir/Class.cpp.s
 .PHONY : Class.cpp.s
 
-DotWriter.o: DotWriter.cpp.o
+ClassDiagram.o: ClassDiagram.cpp.o
 
-.PHONY : DotWriter.o
+.PHONY : ClassDiagram.o
 
 # target to build an object file
-DotWriter.cpp.o:
-	$(MAKE) -f CMakeFiles/umldrawer.dir/build.make CMakeFiles/umldrawer.dir/DotWriter.cpp.o
-.PHONY : DotWriter.cpp.o
+ClassDiagram.cpp.o:
+	$(MAKE) -f CMakeFiles/umldrawer.dir/build.make CMakeFiles/umldrawer.dir/ClassDiagram.cpp.o
+.PHONY : ClassDiagram.cpp.o
 
-DotWriter.i: DotWriter.cpp.i
+ClassDiagram.i: ClassDiagram.cpp.i
 
-.PHONY : DotWriter.i
+.PHONY : ClassDiagram.i
 
 # target to preprocess a source file
-DotWriter.cpp.i:
-	$(MAKE) -f CMakeFiles/umldrawer.dir/build.make CMakeFiles/umldrawer.dir/DotWriter.cpp.i
-.PHONY : DotWriter.cpp.i
+ClassDiagram.cpp.i:
+	$(MAKE) -f CMakeFiles/umldrawer.dir/build.make CMakeFiles/umldrawer.dir/ClassDiagram.cpp.i
+.PHONY : ClassDiagram.cpp.i
 
-DotWriter.s: DotWriter.cpp.s
+ClassDiagram.s: ClassDiagram.cpp.s
 
-.PHONY : DotWriter.s
+.PHONY : ClassDiagram.s
 
 # target to generate assembly for a file
-DotWriter.cpp.s:
-	$(MAKE) -f CMakeFiles/umldrawer.dir/build.make CMakeFiles/umldrawer.dir/DotWriter.cpp.s
-.PHONY : DotWriter.cpp.s
+ClassDiagram.cpp.s:
+	$(MAKE) -f CMakeFiles/umldrawer.dir/build.make CMakeFiles/umldrawer.dir/ClassDiagram.cpp.s
+.PHONY : ClassDiagram.cpp.s
+
+Composition.o: Composition.cpp.o
+
+.PHONY : Composition.o
+
+# target to build an object file
+Composition.cpp.o:
+	$(MAKE) -f CMakeFiles/umldrawer.dir/build.make CMakeFiles/umldrawer.dir/Composition.cpp.o
+.PHONY : Composition.cpp.o
+
+Composition.i: Composition.cpp.i
+
+.PHONY : Composition.i
+
+# target to preprocess a source file
+Composition.cpp.i:
+	$(MAKE) -f CMakeFiles/umldrawer.dir/build.make CMakeFiles/umldrawer.dir/Composition.cpp.i
+.PHONY : Composition.cpp.i
+
+Composition.s: Composition.cpp.s
+
+.PHONY : Composition.s
+
+# target to generate assembly for a file
+Composition.cpp.s:
+	$(MAKE) -f CMakeFiles/umldrawer.dir/build.make CMakeFiles/umldrawer.dir/Composition.cpp.s
+.PHONY : Composition.cpp.s
+
+Dependency.o: Dependency.cpp.o
+
+.PHONY : Dependency.o
+
+# target to build an object file
+Dependency.cpp.o:
+	$(MAKE) -f CMakeFiles/umldrawer.dir/build.make CMakeFiles/umldrawer.dir/Dependency.cpp.o
+.PHONY : Dependency.cpp.o
+
+Dependency.i: Dependency.cpp.i
+
+.PHONY : Dependency.i
+
+# target to preprocess a source file
+Dependency.cpp.i:
+	$(MAKE) -f CMakeFiles/umldrawer.dir/build.make CMakeFiles/umldrawer.dir/Dependency.cpp.i
+.PHONY : Dependency.cpp.i
+
+Dependency.s: Dependency.cpp.s
+
+.PHONY : Dependency.s
+
+# target to generate assembly for a file
+Dependency.cpp.s:
+	$(MAKE) -f CMakeFiles/umldrawer.dir/build.make CMakeFiles/umldrawer.dir/Dependency.cpp.s
+.PHONY : Dependency.cpp.s
+
+DiagramReader.o: DiagramReader.cpp.o
+
+.PHONY : DiagramReader.o
+
+# target to build an object file
+DiagramReader.cpp.o:
+	$(MAKE) -f CMakeFiles/umldrawer.dir/build.make CMakeFiles/umldrawer.dir/DiagramReader.cpp.o
+.PHONY : DiagramReader.cpp.o
+
+DiagramReader.i: DiagramReader.cpp.i
+
+.PHONY : DiagramReader.i
+
+# target to preprocess a source file
+DiagramReader.cpp.i:
+	$(MAKE) -f CMakeFiles/umldrawer.dir/build.make CMakeFiles/umldrawer.dir/DiagramReader.cpp.i
+.PHONY : DiagramReader.cpp.i
+
+DiagramReader.s: DiagramReader.cpp.s
+
+.PHONY : DiagramReader.s
+
+# target to generate assembly for a file
+DiagramReader.cpp.s:
+	$(MAKE) -f CMakeFiles/umldrawer.dir/build.make CMakeFiles/umldrawer.dir/DiagramReader.cpp.s
+.PHONY : DiagramReader.cpp.s
 
 Field.o: Field.cpp.o
 
@@ -231,6 +366,33 @@ Function.cpp.s:
 	$(MAKE) -f CMakeFiles/umldrawer.dir/build.make CMakeFiles/umldrawer.dir/Function.cpp.s
 .PHONY : Function.cpp.s
 
+Generalization.o: Generalization.cpp.o
+
+.PHONY : Generalization.o
+
+# target to build an object file
+Generalization.cpp.o:
+	$(MAKE) -f CMakeFiles/umldrawer.dir/build.make CMakeFiles/umldrawer.dir/Generalization.cpp.o
+.PHONY : Generalization.cpp.o
+
+Generalization.i: Generalization.cpp.i
+
+.PHONY : Generalization.i
+
+# target to preprocess a source file
+Generalization.cpp.i:
+	$(MAKE) -f CMakeFiles/umldrawer.dir/build.make CMakeFiles/umldrawer.dir/Generalization.cpp.i
+.PHONY : Generalization.cpp.i
+
+Generalization.s: Generalization.cpp.s
+
+.PHONY : Generalization.s
+
+# target to generate assembly for a file
+Generalization.cpp.s:
+	$(MAKE) -f CMakeFiles/umldrawer.dir/build.make CMakeFiles/umldrawer.dir/Generalization.cpp.s
+.PHONY : Generalization.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -267,18 +429,36 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... umldrawer"
+	@echo "... Aggregation.o"
+	@echo "... Aggregation.i"
+	@echo "... Aggregation.s"
+	@echo "... Association.o"
+	@echo "... Association.i"
+	@echo "... Association.s"
 	@echo "... Class.o"
 	@echo "... Class.i"
 	@echo "... Class.s"
-	@echo "... DotWriter.o"
-	@echo "... DotWriter.i"
-	@echo "... DotWriter.s"
+	@echo "... ClassDiagram.o"
+	@echo "... ClassDiagram.i"
+	@echo "... ClassDiagram.s"
+	@echo "... Composition.o"
+	@echo "... Composition.i"
+	@echo "... Composition.s"
+	@echo "... Dependency.o"
+	@echo "... Dependency.i"
+	@echo "... Dependency.s"
+	@echo "... DiagramReader.o"
+	@echo "... DiagramReader.i"
+	@echo "... DiagramReader.s"
 	@echo "... Field.o"
 	@echo "... Field.i"
 	@echo "... Field.s"
 	@echo "... Function.o"
 	@echo "... Function.i"
 	@echo "... Function.s"
+	@echo "... Generalization.o"
+	@echo "... Generalization.i"
+	@echo "... Generalization.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

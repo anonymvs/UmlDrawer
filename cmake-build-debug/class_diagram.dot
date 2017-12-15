@@ -29,8 +29,12 @@ digraph G {
 	edge [
 		 arrowhead = "empty"
 	]
-
 	Worker -> Person
-	Civilian -> Person
+
+	edge [
+		 arrowhead = "empty"
+	]
+	Civilian -> Worker
+
 
 }

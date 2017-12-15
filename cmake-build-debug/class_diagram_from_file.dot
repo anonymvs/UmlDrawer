@@ -1,0 +1,88 @@
+digraph G {
+	fontname = "Bitstream Vera Sans"
+	fontsize = 8
+
+
+ 	node [
+		fontname = "Bitstream Vera Sans"
+		fontsize = 8
+		shape = "record"
+	]
+
+	edge [
+		fontname = "Bitstream Vera Sans"
+		fontsize = 8
+	]
+
+	Cat [
+		label = <{Cat||}>
+	]
+
+	City [
+		label = <{City||}>
+	]
+
+	Dog [
+		label = <{<I>Dog</I>|+ species : string<BR ALIGN="LEFT"/>|<I><U>+ bork() : string</U></I><BR ALIGN="LEFT"/>}>
+	]
+
+	Household [
+		label = <{Household||}>
+	]
+
+	Pet [
+		label = <{&lt;&lt;interface&gt;&gt;<BR ALIGN="LEFT"/>Pet|<U>+ name : string</U><BR ALIGN="LEFT"/>|+ pet() : void<BR ALIGN="LEFT"/>}>
+	]
+
+	Toy [
+		label = <{Toy||}>
+	]
+
+	edge [
+		 arrowhead = "empty"
+	]
+	Dog -> Pet
+
+	edge [
+		 arrowhead = "empty"
+	]
+	Cat -> Pet
+
+	edge [
+		 arrowhead = "normal"
+		 style = "dashed"
+	]
+	Cat -> Dog
+
+	edge [
+		 arrowhead = "odiamond"
+		 style = "solid"
+	]
+	Household -> Dog
+
+	edge [
+		 arrowhead = "odiamond"
+		 style = "solid"
+	]
+	Household -> Cat
+
+	edge [
+		 arrowhead = "diamond"
+		 style = "solid"
+	]
+	City -> Household
+
+	edge [
+		 arrowhead = "normal"
+		 style = "solid"
+	]
+	Dog -> Toy
+
+	edge [
+		 arrowhead = "normal"
+		 style = "solid"
+	]
+	Cat -> Toy
+
+
+}
