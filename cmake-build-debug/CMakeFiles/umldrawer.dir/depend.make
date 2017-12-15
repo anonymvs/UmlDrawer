@@ -83,7 +83,6 @@ CMakeFiles/umldrawer.dir/main.cpp.o: ../ClassDiagram.h
 CMakeFiles/umldrawer.dir/main.cpp.o: ../DiagramReader.h
 CMakeFiles/umldrawer.dir/main.cpp.o: ../Field.h
 CMakeFiles/umldrawer.dir/main.cpp.o: ../Function.h
-CMakeFiles/umldrawer.dir/main.cpp.o: ../Generalization.h
 CMakeFiles/umldrawer.dir/main.cpp.o: ../IRelation.h
 CMakeFiles/umldrawer.dir/main.cpp.o: ../Visibility.h
 CMakeFiles/umldrawer.dir/main.cpp.o: ../main.cpp

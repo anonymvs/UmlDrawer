@@ -21,19 +21,20 @@ public:
 
     bool parseClass(Class &, std::ifstream &, std::string const &, std::string const &, int &);
 
-    Function& parseFunction(std::string const &, std::string const &,  int);
+    Function parseFunction(std::string const &, std::string const &,  int);
 
-    Field& parseField(std::string const &, int &);
+    Field parseField(std::string const &, int &);
 
-    Visibility& parseVisibility(char);
+    Visibility parseVisibility(char);
 
     bool isFunction(std::string const &, std::string &);
 
-    std::map<std::string, std::string>& parseParams(std::string const  &);
+    std::map<std::string, std::string> parseParams(std::string const  &);
 
     std::string getContent();
 
     void parseRelation(std::string const &);
+
 };
 
 

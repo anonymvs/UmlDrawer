@@ -30,7 +30,7 @@ public:
     void addClass(Class);
     void addRelation(IRelation *);
     const Class& getClass(std::string const &);
-
+    ~ClassDiagram();
 };
 
 

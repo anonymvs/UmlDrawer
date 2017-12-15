@@ -18,13 +18,10 @@ class Household {
 }
 
 relation Dog -|> Pet
-
 relation Cat -|> Pet
-
 relation Cat ..> Dog
-
+relation Dog ..> Cat
 relation Household --o Dog
-
 relation Household --o Cat
 
 class City {

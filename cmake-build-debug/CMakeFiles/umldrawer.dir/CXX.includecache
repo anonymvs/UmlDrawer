@@ -147,24 +147,10 @@ iostream
 -
 fstream
 -
-string
--
 list
 -
 map
 -
-Class.h
-/home/hegedus/active_workspace/cpp11/nhf2/umldrawer/Class.h
-Field.h
-/home/hegedus/active_workspace/cpp11/nhf2/umldrawer/Field.h
-Function.h
-/home/hegedus/active_workspace/cpp11/nhf2/umldrawer/Function.h
-ClassDiagram.h
-/home/hegedus/active_workspace/cpp11/nhf2/umldrawer/ClassDiagram.h
-Visibility.h
-/home/hegedus/active_workspace/cpp11/nhf2/umldrawer/Visibility.h
-Generalization.h
-/home/hegedus/active_workspace/cpp11/nhf2/umldrawer/Generalization.h
 DiagramReader.h
 /home/hegedus/active_workspace/cpp11/nhf2/umldrawer/DiagramReader.h
 

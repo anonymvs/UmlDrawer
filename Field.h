@@ -17,6 +17,7 @@ public:
     bool isStatic;
     Field(Visibility, std::string, std::string, bool = false);
     std::string write() const;
+
 };
 
 

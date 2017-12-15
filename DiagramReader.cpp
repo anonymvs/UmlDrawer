@@ -73,8 +73,8 @@ void DiagramReader::readFromPath(std::string path) {
 
 bool DiagramReader::parseClass(Class &c, std::ifstream &is, std::string const &name, std::string const &type, int &number) {
     std::string line;
-    auto *functions = new std::list<Function>{};
-    auto *fields = new std::list<Field>{};
+    std::list<Function> functions{};
+    std::list<Field> fields{};
     while (std::getline(is, line)) {
         if(line == "@enduml") {
             return false;
@@ -86,22 +86,23 @@ bool DiagramReader::parseClass(Class &c, std::ifstream &is, std::string const &n
             std::string param_str;
             if(isFunction(line, param_str)) {
                 Function function = parseFunction(line, param_str, number);
-                functions->push_back(function);
+                functions.push_back(function);
             } else {
                 Field field = parseField(line, number);
-                fields->push_back(field);
+                fields.push_back(field);
             }
         } else {
             return false;
         }
         number++;
     }
-    c = *new Class{name, *fields, *functions, type};
+    Class *tmp = new Class{name, fields, functions, type};
+    c = *tmp;
+    delete tmp;
     return true;
 }
 
-Function& DiagramReader::parseFunction(std::string const &line, std::string const &param, int number) {
-    std::string tmp = line;
+Function DiagramReader::parseFunction(std::string const &line, std::string const &param, int number) {
     std::vector<std::string> tokens = split(line, ' ');
     Visibility v;
     try {
@@ -130,17 +131,18 @@ Function& DiagramReader::parseFunction(std::string const &line, std::string cons
             isVirtual = true;
         }
     }
-    return *new Function{v, name, parameters, type, isStatic, isVirtual};
+    return Function{v, name, parameters, type, isStatic, isVirtual};
 }
 
-Visibility& DiagramReader::parseVisibility(char c) {
+Visibility DiagramReader::parseVisibility(char c) {
+
     switch (c) {
         case '+' :
-            return *new Visibility{PUBLIC};
+            return Visibility{PUBLIC};
         case '-' :
-            return *new Visibility{PRIVATE};
+            return Visibility{PRIVATE};
         case '#' :
-            return *new Visibility{PROTECTED};
+            return Visibility{PROTECTED};
         default:
             throw;
     }
@@ -166,7 +168,7 @@ bool DiagramReader::isFunction(std::string const &line, std::string &param) {
     return false;
 }
 
-std::map<std::string, std::string>& DiagramReader::parseParams(std::string const &params) {
+std::map<std::string, std::string> DiagramReader::parseParams(std::string const &params) {
     std::map<std::string, std::string> ret;
     std::vector<std::string> tmp = split(params, ',');
     for(auto v : tmp) {
@@ -177,10 +179,10 @@ std::map<std::string, std::string>& DiagramReader::parseParams(std::string const
             ret[param[0]] = param[1];
         }
     }
-    return *new std::map<std::string, std::string>{ret};
+    return std::map<std::string, std::string>{ret};
 }
 
-Field& DiagramReader::parseField(std::string const &line, int &number) {
+Field DiagramReader::parseField(std::string const &line, int &number) {
     std::string tmp = line;
     std::vector<std::string> tokens = split(line, ' ');
     Visibility v;
@@ -198,7 +200,7 @@ Field& DiagramReader::parseField(std::string const &line, int &number) {
     if(tokens.size() == 4 && tokens[3] == "static") {
         isStatic = true;
     }
-    return *new Field(v, name, type, isStatic);
+    return Field(v, name, type, isStatic);
 }
 
 std::string DiagramReader::getContent() {

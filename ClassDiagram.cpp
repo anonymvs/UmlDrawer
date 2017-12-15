@@ -48,3 +48,9 @@ const Class& ClassDiagram::getClass(std::string const &name) {
     return diagram[name];
 }
 
+ClassDiagram::~ClassDiagram() {
+    for(auto v : relations) {
+        delete v;
+    }
+}
+

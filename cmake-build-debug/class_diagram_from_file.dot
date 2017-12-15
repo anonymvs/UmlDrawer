@@ -55,6 +55,12 @@ digraph G {
 	Cat -> Dog
 
 	edge [
+		 arrowhead = "normal"
+		 style = "dashed"
+	]
+	Dog -> Cat
+
+	edge [
 		 arrowhead = "odiamond"
 		 style = "solid"
 	]
