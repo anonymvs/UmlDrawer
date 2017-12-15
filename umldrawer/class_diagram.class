@@ -1,0 +1,38 @@
+@startuml
+
+
+class Pet interface {
+	+ string name static
+	+ void pet()
+}
+
+class Dog {
+	+ string species
+	+ string bork(int volume, string type) static virtual
+}
+
+class Cat {
+}
+
+class Household {
+}
+
+relation Dog -|> Pet
+relation Cat -|> Pet
+relation Cat ..> Dog
+relation Dog ..> Cat
+relation Household --o Dog
+relation Household --o Cat
+
+class City {
+}
+
+relation City --* Household
+
+class Toy {
+}
+
+relation Dog --> Toy
+relation Cat --> Toy
+
+@enduml

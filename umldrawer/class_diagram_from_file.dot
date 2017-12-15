@@ -23,7 +23,7 @@ digraph G {
 	]
 
 	Dog [
-		label = <{<I>Dog</I>|+ species : string<BR ALIGN="LEFT"/>|<I><U>+ bork(volume : int, type : string) : string</U></I><BR ALIGN="LEFT"/>}>
+		label = <{<I>Dog</I>|+ species : string<BR ALIGN="LEFT"/>|<I><U>+ bork() : string</U></I><BR ALIGN="LEFT"/>}>
 	]
 
 	Household [
